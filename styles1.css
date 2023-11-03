@@ -1,6 +1,5 @@
-
-
-.container {  display: grid;
+.container {
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
@@ -14,13 +13,16 @@
     ". mainArea mainArea mainArea mainArea mainArea mainArea mainArea mainArea mainArea NavArea NavArea"
     ". . butLinkOne . . butLinkTwo . . butLinkThree . NavArea NavArea"
     "footArea footArea footArea footArea footArea footArea footArea footArea footArea footArea NavArea NavArea";
-    font-family: Arial;
-    font-size: 15px;
+  font-family: Arial;
+  font-size: 15px;
 }
 
-.NavArea { grid-area: NavArea; }
-  
-.headArea { grid-area: headArea; 
+.NavArea {
+  grid-area: NavArea;
+}
+
+.headArea {
+  grid-area: headArea;
   text-align: center;
   background-color: #00000000;
   color: #fff;
@@ -29,10 +31,11 @@
   width: 100%;
   margin-bottom: 20px;
 
- }
+}
 
 
-.mainArea { grid-area: mainArea;  
+.mainArea {
+  grid-area: mainArea;
 
   text-align: center;
   margin: 20px auto;
@@ -41,9 +44,10 @@
   color: white;
   background-color: rgba(0, 0, 0, 0.481);
   border-radius: 2px;
- }
+}
 
-.footArea { grid-area: footArea;   
+.footArea {
+  grid-area: footArea;
 
   text-align: center;
   background-color: #00000076;
@@ -55,9 +59,9 @@
   height: 10;
   align-self: self-end;
 
-} 
+}
 
-.butLinkOne{
+.butLinkOne {
 
   grid-area: butLinkOne;
   background-color: #000000;
@@ -77,7 +81,7 @@
   transition: background-color 0.3s, transform 0.2s;
 }
 
-.butLinkTwo{
+.butLinkTwo {
 
   grid-area: butLinkTwo;
   background-color: #000000;
@@ -98,9 +102,9 @@
 
 }
 
-.butLinkThree{
+.butLinkThree {
 
-  grid-area: butLinkThree;  
+  grid-area: butLinkThree;
   background-color: #000000;
   color: white;
   border: none;
@@ -116,7 +120,7 @@
   text-align: center;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.2s;
-  
+
 }
 
 .butLinkOne:hover {
@@ -140,17 +144,19 @@
 
 }
 
-body{
+body {
 
   background-image: url('images/blue.avif');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   overflow-x: hidden;
-  
+
 }
 
-html, body , .container {
+html,
+body,
+.container {
 
   height: 100%;
   margin: 0;
@@ -158,28 +164,29 @@ html, body , .container {
 }
 
 nav {
-    float: right;
-    bottom: 50px;
-    margin-right: -10px;
-    margin-top: -20px;
-    line-height: 0px;
-    background-color: rgba(0, 0, 0, 0.463);
-    padding: 5px;
-    border-style: solid;
-    border-color: rgba(0, 0, 0, 0.429);
-   
+  float: right;
+  bottom: 50px;
+  margin-right: -10px;
+  margin-top: -20px;
+  line-height: 25px;
+  background-color: rgba(0, 0, 0, 0.463);
+  padding: 5px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.429);
+
+
 }
 
 nav ul {
 
-    list-style-type: none;
+  list-style-type: none;
 }
 
 
 
 nav ul li {
 
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 
 }
 
@@ -187,28 +194,27 @@ nav ul li {
 
 nav a {
 
-    text-decoration: none;
-    color: #ffffff;
-    line-height: 90px;
-    
+  text-decoration: none;
+  color: #ffffff;
+
 }
 
 li {
 
-border-color: white;
-border-style: solid;
-border-radius: 0px;
-text-align: center;
-cursor: pointer;
-transition: background-color 0.3s, transform 0.2s;
+  border-color: white;
+  border-style: solid;
+  border-radius: 0px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
 
 
 }
 
 a {
 
-width: 0px;
-height: 0px;
+  width: 0px;
+  height: 0px;
 
 }
 
@@ -220,8 +226,8 @@ li:hover {
 
 .button {
 
-text-decoration: none;
-color: white;
+  text-decoration: none;
+  color: white;
 
 }
 
@@ -244,7 +250,7 @@ color: white;
   bottom: 0;
   left: 50%;
   margin-left: -3px;
-  
+
 }
 
 .containerr {
@@ -322,7 +328,7 @@ color: white;
   border: outset 2px #000000;
   color: black;
   background-color: #5cc1ff;
-  
+
 }
 
 .content1 {
@@ -333,13 +339,13 @@ color: white;
   border: outset 2px #000000;
   color: black;
   background-color: #9fdaff;
-  
+
 }
 
 .title {
 
-font-weight: bold;
-font-size: 20px;
+  font-weight: bold;
+  font-size: 20px;
 
 }
 
@@ -352,9 +358,9 @@ font-size: 20px;
 
 .TechnoWire {
 
-  position:absolute;
+  position: absolute;
   right: 500px;
-  
+
 }
 
 .bold {
@@ -366,191 +372,195 @@ font-size: 20px;
 
 .cool {
 
-text-align: center;
-font-size: 15px;
-font-weight: bold;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
 
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 400px) {
 
-  .container {  display: grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-      grid-auto-columns: 1fr;
-      grid-auto-rows: 1fr;
-      gap: 0px 0px;
-      grid-auto-flow: row;
-      grid-template-areas:
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
       "headArea headArea headArea headArea headArea headArea headArea headArea headArea headArea headArea headArea"
       "NavArea NavArea NavArea NavArea NavArea NavArea NavArea NavArea NavArea NavArea NavArea NavArea"
-        "mainArea mainArea mainArea mainArea mainArea mainArea mainArea mainArea mainArea mainArea mainArea mainArea"
-        "mainArea mainArea mainArea mainArea mainArea mainArea mainArea mainArea mainArea mainArea mainArea mainArea"
-        "mainArea mainArea mainArea mainArea mainArea mainArea mainArea mainArea mainArea mainArea mainArea mainArea"
+      "mainArea mainArea mainArea mainArea mainArea mainArea mainArea mainArea mainArea mainArea mainArea mainArea"
+      "mainArea mainArea mainArea mainArea mainArea mainArea mainArea mainArea mainArea mainArea mainArea mainArea"
+      "mainArea mainArea mainArea mainArea mainArea mainArea mainArea mainArea mainArea mainArea mainArea mainArea"
       "footArea footArea footArea footArea footArea footArea footArea footArea footArea footArea footArea footArea";
   }
 
-    .NavArea { grid-area: NavArea; }
-    
-    .headArea { grid-area: headArea;}
-    
-    .mainArea { grid-area: mainArea; 
-      text-align: center;
-      margin: 20px auto;
-      max-width: 800px;
-      padding: 10px;
-      color: rgb(255, 255, 255);
-      background-color: rgba(0, 0, 0, 0.481);
-      border-radius: 2px; 
+  .NavArea {
+    grid-area: NavArea;
+  }
+
+  .headArea {
+    grid-area: headArea;
+  }
+
+  .mainArea {
+    grid-area: mainArea;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.481);
+    border-radius: 2px;
 
   }
-  
-    .footArea { grid-area: footArea;
-      text-align: center;
-      background-color: #00000076;
-      color: #ffffff;
-      padding: 5px;
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-      height: 10;
-      align-self: self-end;
-  
-  }
-    
-    html, body , .container {
-      height: 100%;
-      margin: 0;
 
-    }
-  
-  
+  .footArea {
+    grid-area: footArea;
+    text-align: center;
+    background-color: #00000076;
+    color: #ffffff;
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10;
+    align-self: self-end;
+
+  }
+
+  html,
+  body,
+  .container {
+    height: 100%;
+    margin: 0;
+
+  }
+
+
   ul {
 
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
   }
-  
+
 
   nav {
-  
-      background-color: rgba(0, 0, 0, 0.404);
-      border-radius: 0px;
-      max-height: 20px;
-      max-width: 400px;
-      
-    
+    background-color: #00000067;
+    max-height: 100px;
+    max-width: 400px;
   }
 
   .butLinkOne {
     display: none;
-  
+
   }
 
   .butLinkTwo {
     display: none;
-  
+
   }
-  
+
   .butLinkThree {
     display: none;
-  
-  }
-  
-  nav ul {
-      display: flex;
-      justify-content: center;
-      height: 100px;
-      width:100%;
-      border: solid;
 
   }
-  
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    margin-left: 35px;
+
+  }
+
   nav li {
-      margin: 0 0px; 
-      position: relative;
-      right: 20px;
-      text-align: center;
-      font-family: Arial, Helvetica, sans-serif;
-      border-color: rgb(255, 255, 255);
-      text-decoration: solid;
-      justify-content: center;
-      font-size: 10px;
-      padding: 0px;
-      margin: -20 -20px;
-      
+    margin: 0px 0px;
+    position: relative;
+    right: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: #ffffff;
+    text-decoration: solid;
+    font-size: 10px;
+    width: 75px;
+    height: 62px;
+    justify-content: center;
+
   }
-  
+
   nav a {
-      text-decoration: none;
-      color: #fff;
-      font-size: 8x;
-      max-width: 50%;
-      text-align: right;
-      justify-content: center;
-      
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    max-width: 40px;
+    height: 10px;
+    line-height: 25px;
   }
-  
+
   .TechnoWire {
 
-    position:absolute;
+    position: absolute;
     right: 0px;
-    
+
   }
-  
-  body{
-  
-      background-image: url('images/blue.avif');
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: cover;
-      max-width: 100%;
-      font-family: Arial, Helvetica, sans-serif;
-      
+
+  body {
+
+    background-image: url('images/blue.avif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+
   }
 
   .timeline::after {
 
     left: 31px;
 
-}
+  }
 
-.containerr {
+  .containerr {
 
     width: 80%;
     padding-left: 70px;
     padding-right: 25px;
 
-}
+  }
 
-.containerr::before {
+  .containerr::before {
 
     left: 60px;
     border: medium solid #00daff;
     border-width: 10px 10px 10px 0;
     border-color: transparent #00daff transparent transparent;
 
-}
+  }
 
-.left::after,
+  .left::after,
 
-.right::after {
+  .right::after {
 
     left: 15px;
 
-}
+  }
 
-.right {
+  .right {
 
     left: 0%;
 
-}
-  
-    img {
-  
-  max-width: 100%; 
-    
-}
   }
+
+  img {
+
+    max-width: 100%;
+
+  }
+}
