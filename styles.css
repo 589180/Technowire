@@ -370,7 +370,11 @@ font-weight: bold;
 
 
 
+<<<<<<< Updated upstream:styles.css
 @media screen and (max-width: 500px){
+=======
+@media screen and (max-width: 400px){
+>>>>>>> Stashed changes:styles1.css
 
   .container {  display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
